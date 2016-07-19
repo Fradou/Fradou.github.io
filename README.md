@@ -2,7 +2,7 @@
 
 Wild Code School Admission Project - Blog
 
-Objectif du projets :
+Objectif du projet :
 - Découverte et familiarisation avec Jekyll.
 - "Pratique" de Github pour gestion des versions.
 - Utilisation de Github pour hébergement du blog crée.
@@ -11,6 +11,6 @@ Objectif du projets :
 
 Eléments attendus :
 - Création et configuration du blog.
-- Article de blog.
+- Articles de blog.
 - Playlist.
 - Création CV semi-dynamique.
