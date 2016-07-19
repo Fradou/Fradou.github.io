@@ -1,0 +1,17 @@
+username: FNC
+
+org:
+ - fname: Fnatic
+ - shname: FNC
+
+players:
+ - top: Kikis
+ - jgl: Spirit
+ - mid: Febiven
+ - adc: Rekkles
+ - sup: Yellowstar
+ - sub: Werlyb
+     
+staff:
+ - coach: Deilor
+ - owned: Fnatic
