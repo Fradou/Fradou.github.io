@@ -2,7 +2,7 @@
 layout: post
 title:  "Origen ou la retombée d'Icare"
 date:   2016-07-19 14:30:00 +0200
-categories:
+categories: esport
 ---
 
 Il y a bientôt 1an, Origen semblait avoir tout compris, passant en une saison de Championship Serie à la demi-finale des Worlds. Depuis, l'équipe est en perte de vitesse et, à l'image de la dernière polèmique suite aux départs de nombreux membres, rien n'a plus l'air d'aller que ce soit ingame ou ailleurs, retour sur une chute.
