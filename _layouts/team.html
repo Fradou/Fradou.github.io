@@ -1,0 +1,22 @@
+---
+layout: page
+---
+
+<div>
+  <div> <img src="{{ page.teamlogo }}" </div>
+  <div> </div>
+  <h4> Histoire : </h4> 
+  
+    <p class="post-content"> {{ content }} </p>
+  <h4> Current roster : </h4>
+    <p> {% for joueur in site.data.poste.player %}
+      <li> {{ joueur}} : {{ site.data.org.[page.sname][joueur] }} </li>
+    {% endfor %}
+    </p>
+  
+  <h4> Staff : </h4>
+    <p> {% for staf in site.data.poste.staff %}
+        <li> {{staf}} : {{ site.data.org.[page.sname][staf] }} </li>
+     {% endfor %}
+    </p>
+    
