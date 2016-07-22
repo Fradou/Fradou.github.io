@@ -11,6 +11,8 @@ Autour du site s'est regroupé une équipe de passionnés, chacun apportant son 
 N'hésitez pas à nous retrouver sur les réseaux sociaux :
 {% include icon-twitter.html username="LoL_of_News" %}
 
+Et si vous voulez nous contacter, testez le formulaire :
+
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
 
 You can find the source code for the Jekyll new theme at:

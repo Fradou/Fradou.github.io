@@ -1,7 +1,7 @@
-seeking: true
-name: Alexandre FRADET
-surname: Alexandre
-lastname: FRADET
+seeking: oui
+name: Bob Mauranne
+surname: Bob
+lastname: Mauranne
 
 email: a_fradet@yahoo.fr
 tel: 06.69.66.25.41
@@ -10,9 +10,9 @@ adress1:
 title:
 
 experience:
-    - name: ACS BPS CBPO
-      location: Valence
-      activity: Activités de centre d'appel 
+    - name: bobby
+      location: ploumploum
+      activity: sennuyer 
       start: 08/2014
       end: aujourd'hui
       fonction: Téléconseiller
