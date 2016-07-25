@@ -4,34 +4,29 @@ title: Recrutement
 permalink: /recrutement/
 ---
 
-Au délà de la passion pour League of Legends qui motive nos auteurs à produire un contenu de qualité, ce site est aussi un moyen de faire connaitre nos journalistes en herbes.  
+Au délà de la passion pour League of Legends qui motive nos auteurs à produire un contenu de qualité, ce site est aussi un moyen de faire connaitre nos journalistes et freelancers.  
 Notre travail vous plait ? Un des auteurs se démarque et vous souhaiteriez l'engager ?  
 
 Voici la liste de nos auteurs actuellement ouvert aux propositions d'emploi :
 
 {% for employ in site.data.curric %}
- {% if employ[1].seeking == "oui" %}
- <ul>{{ employ[1].name}} [CV]({{site.baseurl}}/curric/)</ul>
+ {% assign emp = employ[1] %}
+ {% if emp.seeking == "oui" %}
+* {{ emp.name}}  
+[CV]({{site.baseurl}}/curric/) - [Contact](mailto:{{emp.email}})
+ {% else %}
+* {{ emp.name}}
+Ne souhaite pas être contacté pour le moment
 {% endif %}
 {% endfor %}
 
 
-test 2
-
-{% if site.data.curric.alexF.seeking == "oui" %}
- gg
- {% endif %}
-
-
-
-Testons les formules :  
-
-{% for expe in site.data.cv.experience %}
-<h4>{{ expe.name }}</h4>
-<p>{{expe.location }} - {{expe.start}} à {{expe.end}}</p>
-
-{% for desc in expe.job_descr %}
-* {{ desc.fonction}}
-{% endfor %}
-{% endfor %}
     
+    
+You can find the source code for the Jekyll new theme at:
+{% include icon-github.html username="jglovier" %} /
+[jekyll-new](https://github.com/jglovier/jekyll-new)
+
+You can find the source code for Jekyll at
+{% include icon-github.html username="jekyll" %} /
+[jekyll](https://github.com/jekyll/jekyll)

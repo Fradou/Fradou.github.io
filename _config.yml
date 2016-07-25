@@ -26,6 +26,8 @@ collections:
         output: true
     teams:
         output: true
+    redac:
+        output: true
 
 
 # Build settings

@@ -1,9 +1,7 @@
 ---
 title: Fnatic
-
 layout: team
 teamlogo: http://www.fnatic.com/public/images/logo.png
-
 sname: FNC
 ---
 

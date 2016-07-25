@@ -1,4 +1,5 @@
-seeking: "oui"
+id: alexF
+seeking: oui
 name: Alexandre FRADET
 surname: Alexandre
 lastname: FRADET
@@ -7,7 +8,8 @@ email: a_fradet@yahoo.fr
 tel: 06.69.66.25.41
 adress1:
 
-title:
+title: Web développeur
+titlebl: Webdev
 
 experience:
     - name: ACS BPS CBPO

@@ -1,18 +1,19 @@
-seeking: true
-name: Alexandre FRADET
-surname: Alexandre
-lastname: FRADET
+seeking: oui
+name: Laure VITON
+surname: Laure
+lastname: VITON
 
-email: a_fradet@yahoo.fr
-tel: 06.69.66.25.41
+email: laure.viton@gmail.com
+tel:
 adress1:
 
-title:
+title: Journaliste FranceLoL
+titlebl: Auteur
 
 experience:
-    - name: ACS BPS CBPO
-      location: Valence
-      activity: Activités de centre d'appel 
+    - name: bobby
+      location: ploumploum
+      activity: sennuyer 
       start: 08/2014
       end: aujourd'hui
       fonction: Téléconseiller
