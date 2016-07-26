@@ -6,10 +6,18 @@ lastname: FRADET
 
 email: a_fradet@yahoo.fr
 tel: 06.69.66.25.41
-adress1:
+adress:
+    -ad:
+    -ad:
+    -ad:
+    -ad:
 
 title: Web développeur
 titlebl: Webdev
+
+skills:
+    
+
 
 experience:
     - name: ACS BPS CBPO
@@ -33,25 +41,26 @@ experience:
         - fonction: Renouvellement de forfait chez client en surconsommation.
       
 education:
-    - name:
-      location:
-      end:
-      degree:
+    - name: Lycée Français Jean Monnet
+      end: 2005
+      degree: Baccalauréat S
+      mention: Mention très bien
 
-    - name:
-      location:
-      end:
-      degree:
+    - name: Saint Louis
+      end: 2007
+      degree: Classe prépa
+      mention:
 
-    - name:
-      location:
+    - name: pas fini
       end:
-      degree:
+      degree: bof bof
+      mention: 
 
     - name:
       location:
       end:
       degree:  
-      
+
+
                 
                            

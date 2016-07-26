@@ -1,0 +1,31 @@
+---
+layout: page
+---
+
+
+
+<h2> Expérience professionnelle </h2>
+
+{% for expe in site.data.curric[page.id].experience %}
+<h4>{{ expe.name }}</h4>
+<h4>{{ expe.fonction}} - {{expe.activity}}</h4>
+<p>{{expe.location }} - {{expe.start}} à {{expe.end}}</p>
+
+{% for desc in expe.job_descr %}
+ <li>{{ desc.fonction}}</li>  
+{% endfor %}
+{% endfor %}
+
+<h2> Formations et certifications </h2>
+
+<h3> Formations </h3>
+{% for edu in site.data.curric[page.id].education %}
+<h4>{{edu.degree}}</h4>
+<p> Obtenu à {{edu.name}} en {{edu.end}}</br>
+{% if edu.mention %}
+Avec la mention {{edu.mention}}
+{% endif %}
+{% endfor %}
+
+<h3> Certifications </h3>
+

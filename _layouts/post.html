@@ -12,4 +12,9 @@ layout: default
     {{ content }}
   </div>
 
+{% if page.team %}
+  <div class="teamlink">
+    Retrouvez plus d'informations sur {{site.data.org.[page.team].fname}} : <a href="{{site.baseurl}}/teams/{{page.team}}">ici</a>.
+  </div>    
+{% endif %}
 </article>
