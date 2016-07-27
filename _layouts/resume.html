@@ -7,12 +7,12 @@ layout: page
 Test si problème lié à assign entre local et github:</br>
 premier avec value attribué :</br>
 {% for expe in path.experience %}
-<h4>{{ expe.position}}</h4>
+<h4>{{ expe.position }}</h4>
 {% endfor %}
 
 2eme sans value attribué :
 {% for expe in site.data.curric.[page.id].experience %}
-<h4>{{ expe.position}}</h4>
+<h4>{{ expe.position }}</h4>
 {% endfor %}
 
 
