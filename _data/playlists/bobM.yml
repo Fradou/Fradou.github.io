@@ -1,0 +1,18 @@
+id:
+name: Bob
+comment: Un peu de tout !
+
+tracks:
+    - track: Derezzed 
+      artist: Daft Punk
+      origin: Film "Tron Legacy"
+      link: https://www.youtube.com/embed/m4cgLL8JaVI
+    - track: Blood Dragon Theme
+      artist: Power Glove
+      origin: Jeu vidéo "Far Cry"
+      link: https://www.youtube.com/embed/mWuDwNysX-A
+    - track: Infected
+      artist: Bad Religion
+      origin: Jeu vidéo "Guitar Hero"
+      link: https://www.youtube.com/embed/x40nZkkP8vw
+
