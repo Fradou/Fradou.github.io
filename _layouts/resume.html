@@ -2,7 +2,19 @@
 layout: page
 ---
 
-{% assign path = site.data.curric[page.id] %}
+{% assign path = site.data.curric.[page.id] %}
+
+Test si problème lié à assign entre local et github:</br>
+premier avec value attribué :</br>
+{% for expe in path.experience %}
+<h4>{{ expe.position}}</h4>
+{% endfor %}
+
+2eme sans value attribué :
+{% for expe in site.data.curric.[page.id].experience %}
+<h4>{{ expe.position}}</h4>
+{% endfor %}
+
 
 <h3>{{path.name}}</h3>
 <p> Mail : <a href="mailto:{{path.email}}">{{path.email}}</a></br>
