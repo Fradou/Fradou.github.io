@@ -15,6 +15,16 @@ premier avec value attribué :</br>
 <h4>{{ expe.position }}</h4>
 {% endfor %}
 
+3eme test en mettant fichier dans autre emplacement :
+{% for expe in site.data.[page.id].experience %}
+<h4>{{ expe.position }}</h4>
+{% endfor %}
+
+4eme test variance code
+{% for expe in site.data[page.id]experience %}
+<h4>{{ expe.position }}</h4>
+{% endfor %}
+
 
 <h3>{{path.name}}</h3>
 <p> Mail : <a href="mailto:{{path.email}}">{{path.email}}</a></br>
