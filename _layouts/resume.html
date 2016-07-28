@@ -3,8 +3,7 @@ layout: page
 ---
 
 <div>
-{% assign memb = page.sname %}
-{% assign path = site.data.curric.memb %}
+{% assign path = site.data.curric.[page.sname] %}
 
 Test si problème lié à assign entre local et github:</br>
 premier avec value attribué :</br>
