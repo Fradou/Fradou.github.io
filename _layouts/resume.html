@@ -3,7 +3,7 @@ layout: page
 ---
 
 <div>
-{% assign path = site.data.curric.[page.id] %}
+{% assign path = site.data.curric.alexF %}
 
 Test si problème lié à assign entre local et github:</br>
 premier avec value attribué :</br>
@@ -12,7 +12,7 @@ premier avec value attribué :</br>
 {% endfor %}
 
 2eme sans value attribué :
-{% for expe in site.data.curric.[page.id].experience %}
+{% for expe in site.data.curric.[page.id][experience] %}
 <h4>{{ expe.position }}</h4>
 {% endfor %}
 
