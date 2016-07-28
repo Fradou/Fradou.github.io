@@ -1,7 +1,77 @@
 ---
 title: Laure VITON
-layout: resume
 id: laureV
 ---
 
+<div>
+{% assign path = site.data.curric.[page.id] %}
 
+Test si problème lié à assign entre local et github:</br>
+premier avec value attribué :</br>
+{% for expe in path.experience %}
+<h4>{{ expe.position }}</h4>
+{% endfor %}
+
+2eme sans value attribué :
+{% for expe in site.data.curric.[page.id].experience %}
+<h4>{{ expe.position }}</h4>
+{% endfor %}
+
+3eme test en mettant fichier dans autre emplacement :
+{% for expe in site.data.[page.id].experience %}
+<h4>{{ expe.position }}</h4>
+{% endfor %}
+
+4eme test variance code
+{% for expe in site.data[page.id]experience %}
+<h4>{{ expe.position }}</h4>
+{% endfor %}
+
+<p class="post-content"> {{ content }} </p>
+
+<h3>{{path.name}}</h3>
+<p> Mail : <a href="mailto:{{path.email}}">{{path.email}}</a></br>
+{% if {{path.tel}} %}
+Phone: {{path.tel}}</br>
+{% endif %}
+
+<h2> Expériences professionnelles </h2>
+
+{% for expe in path.experience %}
+<h4>{{ expe.position}} - {{ expe.name }}</h4>
+<p>{{expe.start}} à {{expe.end}} - {{expe.location }}</p>
+<p>{% for desc in expe.job_descr %}
+ <li>{{ desc.fonction}}</li>  
+{% endfor %}
+</p>
+{% endfor %}
+
+<h2> Compètences </h2>
+
+<p>{% for comp in path.skills %}
+<strong>{{comp.name}}</strong> : 
+{% for compo in comp.items %}
+{{ compo.name }}.
+{% endfor %}</br>
+{% endfor %}
+</p>
+
+
+<h2> Formations et certifications </h2>
+
+<h3> Formations </h3>
+{% for edu in path.education %}
+<strong>{{edu.degree}}</strong>
+<p> Obtenu à {{edu.name}} en {{edu.end}}</br>
+{% if edu.mention %}
+Avec {{edu.mention}}
+{% endif %}
+</p>
+{% endfor %}
+
+<h3> Certifications </h3>
+{% for certif in path.certification %}
+{{certif.name}} - {{certif.year}}
+{% endfor %}
+
+</div>
