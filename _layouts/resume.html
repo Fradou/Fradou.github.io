@@ -2,6 +2,7 @@
 layout: page
 ---
 
+<div>
 {% assign path = site.data.curric.[page.id] %}
 
 Test si problème lié à assign entre local et github:</br>
@@ -25,6 +26,7 @@ premier avec value attribué :</br>
 <h4>{{ expe.position }}</h4>
 {% endfor %}
 
+<p class="post-content"> {{ content }} </p>
 
 <h3>{{path.name}}</h3>
 <p> Mail : <a href="mailto:{{path.email}}">{{path.email}}</a></br>
@@ -70,3 +72,5 @@ Avec {{edu.mention}}
 {% for certif in path.certification %}
 {{certif.name}} - {{certif.year}}
 {% endfor %}
+
+</div>
