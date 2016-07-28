@@ -1,56 +1,103 @@
 seeking: oui
 name: Bob MAURANNE
-surname: Bob
-lastname: MAURANNE
 
 email: maubo@aol.com
 tel:
-adress1:
+location:
 
 title: Web Designer
 titlebl: Auteur / Graphiste
 
+comptog: 'on'
+certtog: 'on'
+divtog: 'off'
+
+competence:
+    - name: Languages
+      items:
+        - name: JavaScript
+        - name: Python
+        - name: SQL
+        
+    - name: Backend
+      items:
+        - name: Node
+        - name: Django   
+        
+    - name: Frontend 
+      items:
+        - name: Angular JS
+        - name: BackboneJS
+                
+
+
 experience:
-    - name: bobby
-      location: ploumploum
-      activity: sennuyer 
-      start: 08/2014
+    - name: Microsoft
+      location: Silicon Valley
+      activity: 
+      link: https://www.microsoft.com/fr-fr/ 
+      start: 2010
       end: aujourd'hui
-      fonction: Téléconseiller
-      job_descr:
-        - fonction: Assistance à l'utilisation des produits.
-        - fonction: Diagnostic et dépannage en ligne.
-        - fonction: Programmation et suivi des réparations.
+      position: Développeur full stack
+      jobdesc: complexe # "simple" ou "complexe"
+      jobdescr:
+        - name: Windows 10
+          link: https://www.microsoft.com/fr-fr/windows/features
+          fonction: Développeur front end
+          skills: 
+           - Java, C
+        - name: Microsoft Word 2010
+          link: https://products.office.com/fr-fr/word
+          fonction: Developpeur
+          skills:
        
-    - name: CCA International
-      location: Amiens 
-      start: 09/2013
-      end: 12/2013
-      fonction: Télévendeur
-      job_descr:
-        - fonction: Fidélisation client en appel sortant.
-        - fonction: Renouvellement de forfait chez client en surconsommation.
+    - name: Ubisoft
+      location: Montréal, CA
+      activity: 
+      link: https://www.ubisoft.com/fr-FR/
+      start: 2010
+      end: 2007
+      position: Télévendeur
+      jobdesc: complexe  # "simple" ou "complexe"
+      jobdescr:
+        - name: Rayman contre les lapins crétins
+          link: 
+          fonction: Développeur
+          skills: 
+           - Gestion des collisions environnement
+           - C, Java
+        - name: Assassin's Creed
+          link: 
+          fonction: Developpeur
+          skills:
+           - Moteur de combat
+           - Java, C++
       
 education:
-    - name:
-      location:
-      end:
-      degree:
+    - name: Lycée Français Jean Monnet
+      end: 2005
+      degree: Baccalauréat S
+      mention: mention très bien
 
-    - name:
-      location:
-      end:
-      degree:
+    - name: Saint Louis
+      end: 2007
+      degree: Classe prépa
+      mention: les félicitations du jury
 
-    - name:
-      location:
-      end:
-      degree:
+    - name: pas fini
+      end: 2003
+      degree: bof bof
+      mention: 
 
-    - name:
-      location:
-      end:
-      degree:  
+certification:
+    - name: pape
+      year: 2010
       
-                
+divers: 
+      name: Autre et encore
+      section:
+        - name: Hobby
+          content: Foot, musique, cuisine
+        - name: Veteran
+          content: marine                
                            

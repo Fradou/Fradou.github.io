@@ -4,50 +4,82 @@ layout: page
 
 <div>
 {% assign path = site.data.curric.[page.sname] %}
-
-<h3>{{path.name}}</h3>
-<p> Mail : <a href="mailto:{{path.email}}">{{path.email}}</a></br>
+<h4> {{ path.title }}</h4>
+<a href="mailto:{{path.email}}">{{path.email}}</a></br>
 {% if {{path.tel}} %}
-Phone: {{path.tel}}</br>
+{{path.tel}}</br>
+{% endif %}
+{% if {{path.location}} %}
+{{path.location}}</br>
 {% endif %}
 
 <p class="post-content"> {{ content }} </p>
 
-<h2> Expériences professionnelles </h2>
-
-{% for expe in path.experience %}
-<h4>{{ expe.position}} - {{ expe.name }}</h4>
-<p>{{expe.start}} à {{expe.end}} - {{expe.location }}</p>
-<p>{% for desc in expe.job_descr %}
- <li>{{ desc.fonction}}</li>  
-{% endfor %}
-</p>
-{% endfor %}
-
-<h2> Compètences </h2>
-
-<p>{% for comp in path.skills %}
+{% if path.comptog == 'on' %}
+<h3> Compètences </h3>
+{% for comp in path.competence %}
+<p>
 <strong>{{comp.name}}</strong> : 
 {% for compo in comp.items %}
-{{ compo.name }}.
-{% endfor %}</br>
+<li>{{ compo.name }}</li>
+{% endfor %}
+</p>
+{% endfor %}
+{% endif %}
+
+<h3> Expériences professionnelles </h3>
+
+<p>
+{% for expe in path.experience %}
+<h4>{{ expe.position}} - {% if expe.link %}<a href="{{expe.link}}">{{ expe.name }}</a> {% else %}{{ expe.name }}{% endif %}</h4>
+<p>{{expe.start}} à {{expe.end}} - {{expe.location }}</p>
+
+{% if expe.jobdesc == "simple" %}
+ {% for descr in expe.jobdescr %}
+ <li>{{ descr }}</li> 
+ {% endfor %}
+
+{% else %}
+ {% for descr in expe.jobdescr %}
+  <p>
+  {% if descr.link %}<a href="{{descr.link}}"><strong>{{ descr.name }}</strong></a> {% else %} <strong>{{ descr.name }}</strong> {% endif %} - {{descr.fonction}}</br>
+  {% for skill in descr.skills %}
+ <li>{{skill}}</li>
+  {% endfor %}
+  </p>
+ {% endfor %}
+{% endif %}
+</br>
 {% endfor %}
 </p>
 
+<h3> Formations {% if path.certtog == 'on' %}et certifications{% endif %}</h3>
 
-<h2> Formations et certifications </h2>
-
-<h3> Formations </h3>
+{% if path.certtog == 'on' %}<h4> Formations </h4>{% endif %}
 {% for edu in path.education %}
 <strong>{{edu.degree}}</strong>
-<p> Obtenu à {{edu.name}} en {{edu.end}}</br>
+<p> {{edu.end}} - {{edu.name}}</br>
 {% if edu.mention %}
-Avec {{edu.mention}}
+{{edu.mention}}
 {% endif %}
 </p>
 {% endfor %}
 
-<h3> Certifications </h3>
+{% if path.certtog == 'on' %}
+<h4> Certifications </h4>
+<p>
 {% for certif in path.certification %}
-{{certif.name}} - {{certif.year}}
+{{certif.name}} - {{certif.year}}</br>
 {% endfor %}
+</p>
+{% endif %}
+
+{% if path.divtog == 'on' %}
+<h3> {{path.divers.name}}</h3>
+{% for div in path.divers.section %}
+<p>
+<strong>{{div.name}}</strong> :</br>
+{{div.content}}</br>
+</p>
+{% endfor %}
+{% endif %}

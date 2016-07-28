@@ -1,56 +1,87 @@
 seeking: non
 name: Max LENARD
-surname: Max
-lastname: LENARD
 
 email: lenard.m@yahoo.com
 tel: 
-adress1:
+location:
 
 title: Journaliste indépendant
 titlebl: Auteur
 
+comptog: 'on'
+certtog: 'on'
+divtog: 'on'
+
+competence:
+    - name:
+      items:
+        - name: 
+        - name: 
+        
+    - name: 
+      items:
+        - name: 
+        - name:   
+        
 experience:
-    - name: bobby
-      location: ploumploum
-      activity: sennuyer 
-      start: 08/2014
-      end: aujourd'hui
-      fonction: Téléconseiller
-      job_descr:
-        - fonction: Assistance à l'utilisation des produits.
-        - fonction: Diagnostic et dépannage en ligne.
-        - fonction: Programmation et suivi des réparations.
+    - name: On s'en fout on le voit pas
+      location: Pareil
+      activity: idem
+      link:  
+      start: jackpot
+      end: blablabla
+      position: Téléconseiller
+      jobdesc: complexe # "simple" ou "complexe"
+      jobdescr:
+        - name:
+          link: 
+          fonction: Poseur d'adamantium
+          skills: 
+           Adamantier
+           Aiguisage de griffe
+        - name: Batman project
+          link:
+          fonction: Concepteur de costume
+          skills: 
+           - Couture
+           - Poterie céramique
        
-    - name: CCA International
-      location: Amiens 
-      start: 09/2013
-      end: 12/2013
-      fonction: Télévendeur
-      job_descr:
-        - fonction: Fidélisation client en appel sortant.
-        - fonction: Renouvellement de forfait chez client en surconsommation.
+    - name: 
+      location: 
+      activity: Activités de centre d'appel
+      link: 
+      start: 
+      end: 
+      position: Télévendeur
+      jobdesc: simple  # "simple" ou "complexe"
+      jobdescr:
+
       
 education:
-    - name:
-      location:
-      end:
-      degree:
+    - name: 
+      end: 
+      degree: 
+      mention: 
 
-    - name:
-      location:
-      end:
-      degree:
+    - name: 
+      end: 
+      degree: 
+      mention: 
 
-    - name:
-      location:
-      end:
-      degree:
+    - name: 
+      end: 
+      degree: 
+      mention: 
 
-    - name:
-      location:
-      end:
-      degree:  
-      
-                
+certification:
+    - name: pape
+      year: 2010
+
+divers: 
+      name: Autre et encore
+      section:
+        - name: Hobby
+          content: Foot, musique, cuisine
+        - name: Veteran
+          content: marine                
                            

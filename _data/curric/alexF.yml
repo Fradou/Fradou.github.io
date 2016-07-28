@@ -1,29 +1,28 @@
-id: alexF
 seeking: oui
 name: Alexandre FRADET
 
 email: a_fradet@yahoo.fr
 tel: 06.69.66.25.41
+location: Valence, France
 
-title: Web développeur
+title: Téléconseiller - Web développeur en devenir
 titlebl: Webdev
 
-skills:
-    - name: test name1
-      items:
-        - name: test name2
-        - name: test name3
-        
-    - name: language
-      items:
-        - name: c++
-        - name: apache   
-        
-    - name: alaise blaise 
-      items:
-                
+comptog: 'on'
+certtog: 'off'
+divtog: 'on' 
 
-
+competence:
+    - name: Langues
+      items:
+        - name: "Anglais: opérationnel"
+        - name: "Allemand: notions"
+        
+    - name: Languages
+      items:
+        - name: "HTML/CSS: basique"
+        - name: "Javascript: notions"
+        
 experience:
     - name: ACS BPS CBPO
       location: Valence
@@ -32,43 +31,140 @@ experience:
       start: 08/2014
       end: aujourd'hui
       position: Téléconseiller
-      job_descr:
-        - fonction: Assistance à l'utilisation des produits.
-        - fonction: Diagnostic et dépannage en ligne.
-        - fonction: Programmation et suivi des réparations.
-       
+      jobdesc: simple # "simple" ou "complexe"
+      jobdescr:
+        - Support technique et assistance à l'utilisation de smartphones & tablettes.
+        - Diagnostic panne et dépannage en ligne.
+        - Programmation et suivi des réparations.
+        
     - name: CCA International
       location: Amiens
       activity: Activités de centre d'appel
-      link: 
+      link: http://www.ccainternational.com/
       start: 09/2013
       end: 12/2013
       position: Télévendeur
-      job_descr:
-        - fonction: Fidélisation client en appel sortant.
-        - fonction: Renouvellement de forfait chez client en surconsommation.
+      jobdesc: simple  # "simple" ou "complexe"
+      jobdescr:
+        - Fidélisation client en appel sortant.
+        - Renouvellement de forfait chez client en surconsommation.
+        
+    - name: Acticall
+      location: Pau
+      activity: Activités de centre d'appel
+      link: http://www.groupe-acticall.com/  
+      start: 2010
+      end: 2013
+      position: Téléconseiller
+      jobdesc: complexe # "simple" ou "complexe"
+      jobdescr:
+        - name: Front office
+          link: 
+          fonction: Appel entrant
+          skills: 
+           - Gestion contrats, paiments, demandes et réclamations courantes.
+           - Planification intervention?
+        - name: Back office
+          link:
+          fonction: Appel sortant, courrier, mail
+          skills: 
+           - Traitement et suivi des réclamations et demandes complexes.
+           - Correction des anomalies. Déblocage et redressement facturation.
+        - name: Support métier
+          link:
+          fonction: 2 x 4 mois
+          skills:
+           - Assistance sur plateau des conseillers en appel.
+           - Soutien et animation ponctuelle des formations.
+           - Tri et affranchissement courrier.
+           
+    - name: Team solution
+      location: Paris
+      activity: Prestataire accueil
+      link:  
+      start: 2009
+      end: 2010
+      position: Hôte d'accueil
+      jobdesc: simple # "simple" ou "complexe"
+      jobdescr:
+        - Préparation et accueil de congrès médicaux (missions ponctuelles)
+
+
+    - name: IFAG Promo
+      location: Paris
+      activity: Association
+      link: http://www.ifag.com/ 
+      start: 2009
+      end: 2010
+      position: Hôte - Animateur
+      jobdesc: simple # "simple" ou "complexe"
+      jobdescr:
+        - Présentation et promotion de l'IFAG dans les salons étudiants.
+        - Organisation et animation des journées portes ouvertes et autres événements intra-école.
+                         
+
+    - name: Strasbourg Chimie Service
+      location: Strasbourg
+      activity: Association type junior entreprise
+      link:  
+      start: 2008
+      end: 2009
+      position: VP Communication
+      jobdesc: simple # "simple" ou "complexe"
+      jobdescr:
+        - Organisation et animation de confèrences d'information sur les métiers de la chimie, en partenariat avec l'Union des Industries Chimiques.
+      
+    - name: Soprema
+      location: Strasbourg
+      activity:
+      link: http://www.soprema.fr/fr/
+      start: Stage d'été
+      end: 2 mois
+      position: Technicien R&D
+      jobdesc: simple
+      jobdescr:
+        - Etablissement protocole de tests feu sur matériaux pour validation du respect des normes.
+        - Construction du modèle de tests.
+        
+    - name: ECPM
+      location: Strasbourg
+      activity:
+      link:         
+      start: 2007
+      end: 2008
+      position: Moniteur de la médiathèque
+      jobdesc: simple
+      jobdescr:
+        - Surveillance des locaux.
+        - Accueil et aide à l'utilisation des équipements.
       
 education:
-    - name: Lycée Français Jean Monnet
+    
+    - name: Ecole supérieure de Management et Gestion
+      end: 2010
+      degree: IFAG Paris - 1ère année
+      
+    - name: Ecole européenne de Chimie Polymère et Matériaux (Strasbourg)
+      end: 2009
+      degree: ECPM - 1ère année
+      
+    - name: Lycée Saint Louis (Paris)
+      end: 2007
+      degree: Classe préparatoire PCSI puis PC
+
+    - name: Lycée Français Jean Monnet (Bruxelles)
       end: 2005
       degree: Baccalauréat S
-      mention: mention très bien
+      mention: Mention très bien
 
-    - name: Saint Louis
-      end: 2007
-      degree: Classe prépa
-      mention: les félicitations du jury
-
-    - name: pas fini
-      end: 2003
-      degree: bof bof
-      mention: 
-
-      
 certification:
     - name: pape
       year: 2010
 
-
+divers: 
+      name: Divers
+      section:
+        - name: Hobbies
+          content: Musique, fitness, lecture, jeux vidéos.
                 
                            

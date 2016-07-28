@@ -1,56 +1,102 @@
 seeking: oui
 name: Laure VITON
-surname: Laure
-lastname: VITON
 
 email: laure.viton@gmail.com
 tel:
-adress1:
+location: Gotham City
 
-title: Journaliste FranceLoL
+title: Assistante superhéros
 titlebl: Auteur
 
+comptog: 'off'
+certtog: 'on'
+divtog: 'on'
+
+competence:
+    - name: test name1
+      items:
+        - name: test name2
+        - name: test name3
+        
+    - name: language
+      items:
+        - name: c++
+        - name: apache   
+        
+    - name: alaise blaise 
+      items:
+                
+
+
 experience:
-    - name: bobby
-      location: ploumploum
-      activity: sennuyer 
+    - name: Batman and co
+      location: Batcave - Gotham City
+      activity: Combat contre le crime
+      link:  
       start: 08/2014
       end: aujourd'hui
-      position: Téléconseiller
-      job_descr:
-        - fonction: Assistance à l'utilisation des produits.
-        - fonction: Diagnostic et dépannage en ligne.
-        - fonction: Programmation et suivi des réparations.
+      position: Responsable accessoire
+      jobdesc: complexe # "simple" ou "complexe"
+      jobdescr:
+        - name: Projet arme X
+          link: www.wolverine.com
+          fonction: Poseur d'adamantium
+          skills: 
+           - Adamantier
+           - Aiguisage de griffe
+        - name: Batman project
+          link: www.bwayne.com/batman
+          fonction: Concepteur de costume
+          skills: 
+           - Couture
+           - Poterie céramique
        
-    - name: CCA International
-      location: Amiens 
-      start: 09/2013
-      end: 12/2013
-      position: Télévendeur
-      job_descr:
-        - fonction: Fidélisation client en appel sortant.
-        - fonction: Renouvellement de forfait chez client en surconsommation.
+    - name: League des justiciers
+      location: Base secrète
+      activity: Sauvegarde de la planète
+      link: 
+      start: 2012
+      end: 2014
+      position: Constructrice spatiale
+      jobdesc: simple  # "simple" ou "complexe"
+      jobdescr:
+        - Etude de faisabilité pour aile de détention superméchant.
+        - Budget prévisionnel pour 50 ans.
+        - Gestion budget quotidien.
+        
+    - name: GCPD
+      location: Gotham City
+      activity: Sécurité et Justice
+      link: 
+      start: 2011
+      end: 2012
+      position: Secrétaire de direction
+      jobdesc: simple  # "simple" ou "complexe"
+      jobdescr:
+        - Gestion planning capitaine.
+        - Chargée des relations avec les surhumains.
       
 education:
-    - name:
-      location:
-      end:
-      degree:
+    - name: Université de Metropolis
+      end: 2010
+      degree: Assistant superhéros
+      mention:
 
-    - name:
-      location:
-      end:
-      degree:
+    - name: Lycée profesionnel Gotham City
+      end: 2007
+      degree: Bac option "Mutants et êtres exceptionnels"
+      mention: Félicitations du jury
 
-    - name:
-      location:
-      end:
-      degree:
+certification:
+    - name: Superhéros Jr
+      year: 2014
+    - name: Best side kick de side kick
+      year: 2012
 
-    - name:
-      location:
-      end:
-      degree:  
-      
-                
-                           
+divers: 
+      name: Autre et encore
+      section:
+        - name: Ecrivain amateur
+          content: '2 ebook publiés : "Le héros de Gotham" et "Bat or Alien"'        
+        - name: Hobby
+          content: MMA, méchanique, couture.                        
