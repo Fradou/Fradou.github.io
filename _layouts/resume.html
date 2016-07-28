@@ -5,34 +5,13 @@ layout: page
 <div>
 {% assign path = site.data.curric.[page.sname] %}
 
-Test si problème lié à assign entre local et github:</br>
-premier avec value attribué :</br>
-{% for expe in path.experience %}
-<h4>{{ expe.position }}</h4>
-{% endfor %}
-
-2eme sans value attribué :
-{% for expe in site.data.curric.[page.sname][experience] %}
-<h4>{{ expe.position }}</h4>
-{% endfor %}
-
-3eme test en mettant fichier dans autre emplacement :
-{% for expe in site.data.[page.sname].experience %}
-<h4>{{ expe.position }}</h4>
-{% endfor %}
-
-4eme test variance code
-{% for expe in site.data[page.sname]experience %}
-<h4>{{ expe.position }}</h4>
-{% endfor %}
-
-<p class="post-content"> {{ content }} </p>
-
 <h3>{{path.name}}</h3>
 <p> Mail : <a href="mailto:{{path.email}}">{{path.email}}</a></br>
 {% if {{path.tel}} %}
 Phone: {{path.tel}}</br>
 {% endif %}
+
+<p class="post-content"> {{ content }} </p>
 
 <h2> Expériences professionnelles </h2>
 
@@ -72,5 +51,3 @@ Avec {{edu.mention}}
 {% for certif in path.certification %}
 {{certif.name}} - {{certif.year}}
 {% endfor %}
-
-</div>

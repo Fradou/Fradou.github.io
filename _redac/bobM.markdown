@@ -1,6 +1,7 @@
 ---
 title: Bob MAURANNE
 layout: resume
-id: bobM
+sname: bobM
 ---
 
+Ouvert à tout type d'offre, je fonctionne au coup de coeur !

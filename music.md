@@ -26,5 +26,9 @@ Se trouve dans {{track.origin}} - [link]({{track.link}})
 {% endfor %}
 {% endfor %}
 
+<iframe width="50%" height="65" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/193279820&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;show_artwork=false&amp;hide_bpm=true"></iframe>
 
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/193279820&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LZ73Hy7ob-A" frameborder="0" allowfullscreen></iframe>
 

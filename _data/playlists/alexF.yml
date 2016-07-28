@@ -10,12 +10,18 @@ tracks:
     - track: Comptine d'un autre été
       artist: Yann Tiersen
       origin: Film "Le fabuleux destin d'Amélie Poulain"
-      link: https://www.youtube.com/embed/H2-1u8xvk54
+      typeli:
+      linkem: https://www.youtube.com/embed/H2-1u8xvk54
+      linkd:
     - track: 9ème Symphonie, Op. 125
       artist: Beethoven
       origin: Film "Orange méchanique"
-      link: https://www.youtube.com/embed/jeO4RF7eXBc
+      typeli:
+      linkem: https://www.youtube.com/embed/jeO4RF7eXBc
+      linkd:
     - track: Man with a harmonica
       artist: Ennio Morricone
       origin: Film "Il était une fois dans l'Ouest"
-      link: https://www.youtube.com/embed/wWtqkz6SH1Y             
+      typeli:
+      linkem: https://www.youtube.com/embed/wWtqkz6SH1Y
+      linkd:             

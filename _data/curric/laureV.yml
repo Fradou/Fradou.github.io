@@ -16,7 +16,7 @@ experience:
       activity: sennuyer 
       start: 08/2014
       end: aujourd'hui
-      fonction: Téléconseiller
+      position: Téléconseiller
       job_descr:
         - fonction: Assistance à l'utilisation des produits.
         - fonction: Diagnostic et dépannage en ligne.
@@ -26,7 +26,7 @@ experience:
       location: Amiens 
       start: 09/2013
       end: 12/2013
-      fonction: Télévendeur
+      position: Télévendeur
       job_descr:
         - fonction: Fidélisation client en appel sortant.
         - fonction: Renouvellement de forfait chez client en surconsommation.
