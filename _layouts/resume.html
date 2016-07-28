@@ -3,7 +3,7 @@ layout: page
 ---
 
 <div>
-{% assign memb = page.id %}
+{% assign memb = page.sname %}
 {% assign path = site.data.curric.memb %}
 
 Test si problème lié à assign entre local et github:</br>
@@ -13,17 +13,17 @@ premier avec value attribué :</br>
 {% endfor %}
 
 2eme sans value attribué :
-{% for expe in site.data.curric.[page.id][experience] %}
+{% for expe in site.data.curric.[page.sname][experience] %}
 <h4>{{ expe.position }}</h4>
 {% endfor %}
 
 3eme test en mettant fichier dans autre emplacement :
-{% for expe in site.data.[page.id].experience %}
+{% for expe in site.data.[page.sname].experience %}
 <h4>{{ expe.position }}</h4>
 {% endfor %}
 
 4eme test variance code
-{% for expe in site.data[page.id]experience %}
+{% for expe in site.data[page.sname]experience %}
 <h4>{{ expe.position }}</h4>
 {% endfor %}
 
