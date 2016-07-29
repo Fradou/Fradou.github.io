@@ -4,13 +4,16 @@
 .site-header {
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
+    background-image: url("http://pre09.deviantart.net/2735/th/pre/f/2015/259/c/9/league_of_legends_youtube_banner_by_su_ke-d7nzyi4.jpg");
+    min-height: 175px;
 
     // Positioning context for the mobile navigation icon
     position: relative;
 }
 
 .site-title {
+    color: #ffffff;
+    text-shadow: 4px 4px 8px #000000;
     font-size: 26px;
     font-weight: 300;
     line-height: 56px;
@@ -20,7 +23,7 @@
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: #ffffff;
     }
 }
 
@@ -33,7 +36,9 @@
     }
 
     .page-link {
-        color: $text-color;
+        color: #ffffff;
+        font-size: 22px;
+        text-shadow: 2px 2px 4px #000000;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the last one
@@ -97,8 +102,11 @@
 /**
  * Site footer
  */
+
 .site-footer {
     border-top: 1px solid $grey-color-light;
+    background: url("http://orig13.deviantart.net/b6f2/f/2013/329/d/e/league_of_legends___katarina_icon_256x_by_gamingtutsdk-d6vlpch.png") no-repeat left top, url("http://orig08.deviantart.net/91f4/f/2013/329/d/2/league_of_legends___kayle_icon_256x_by_gamingtutsdk-d6vlfxn.png") no-repeat right top;
+    background-color: #e9f3fb;
     padding: $spacing-unit 0;
 }
 
@@ -201,6 +209,7 @@
  */
 .post-header {
     margin-bottom: $spacing-unit;
+    background-image: url("");    
 }
 
 .post-title {
@@ -238,5 +247,54 @@
         @include media-query($on-laptop) {
             font-size: 18px;
         }
+    }
+}
+
+
+/** CV (resume) layout **/
+
+.resumecv {
+    li {
+        margin-left: 30px;
+    }
+    h2 {
+        font-size: 34px;
+                
+        @include media-query($on-laptop) {
+            font-size: 30px;
+        }
+    }
+    h3 {
+        font-size: 30px;
+        
+        @include media-query($on-laptop) {
+            font-size: 24px;
+        }
+    }
+    h4 {
+        font-size: 20px;
+        color: #328437;
+        
+        @include media-query($on-laptop) {
+            font-size: 16px;
+        }
+    }
+    hr {
+        color: #1A681F;
+        width: 85%;
+        align: left;
+    }
+    line-height:1.25;
+    font-size: 14px;
+}    
+
+/** Team layout **/
+.teampa {
+    li {
+        margin-left:30px;
+    }
+    img {
+        height: 125px;
+        width: auto;
     }
 }

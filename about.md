@@ -8,7 +8,7 @@ permalink: /about/
 
 League Of News est un tout nouveau site d'actualités destiné à la communauté francophone de League Of Legends. L'aventure démarre en juillet 2016 suite à un projet "examen" pour l'entrée en formation d'un de nos membres fondateurs.
 
-Autour du site s'est au fur et à mesure regroupé une équipe de passionnés, chacun apportant son champs d'expertise, du challenger qui vous donne les protips au fanboy qui vous tiendra au courant des ragots et transfert dans les teams sans oublier le webdev qui s'occupe de faire tourner tout ça. 
+Autour du site s'est au fur et à mesure regroupée une équipe de passionnés, chacun apportant son champs d'expertise, du challenger qui vous donne les protips au fanboy qui vous tiendra au courant des ragots et transfert dans les teams sans oublier le webdev qui s'occupe de faire tourner tout ça. 
 
 ### L'équipe
 
@@ -26,13 +26,4 @@ Vous trouverez ci-dessous la liste de notre équipe, leur occupation dans et hor
 {% endif %}
 {% endfor %}
 
-
-Au cas où :
-
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Et au cas où elle vous aurait échappée, voilà l'adresse pour nous contacter concernant le site : [{{site.email}}](mailto:{{site.email}})

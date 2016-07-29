@@ -2,7 +2,7 @@
 layout: post
 title:  "Origen ou la retombée d'Icare"
 date:   2016-07-19 14:30:00 +0200
-categories: esport
+categories: Esport
 team: OG
 author: Alex F
 ---

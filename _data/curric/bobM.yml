@@ -46,6 +46,7 @@ experience:
           fonction: Développeur front end
           skills: 
            - Java, C
+           - Customisation infertace utilisateur
         - name: Microsoft Word 2010
           link: https://products.office.com/fr-fr/word
           fonction: Developpeur
@@ -74,30 +75,28 @@ experience:
            - Java, C++
       
 education:
-    - name: Lycée Français Jean Monnet
+    - name: Code School - Toronto
+      end: 2006
+      degree: Full stack dev
+      mention: Le jury a dit GG
+
+    - name: Université Paris VII
       end: 2005
-      degree: Baccalauréat S
-      mention: mention très bien
+      degree: Informatique et développement
 
-    - name: Saint Louis
-      end: 2007
-      degree: Classe prépa
-      mention: les félicitations du jury
-
-    - name: pas fini
-      end: 2003
-      degree: bof bof
-      mention: 
+    - name: Lycée Gay Lussac
+      end: 2002
+      degree: Bac S
 
 certification:
-    - name: pape
-      year: 2010
+    - name: Best codeur du mois
+      year: Aout 2009
       
 divers: 
       name: Autre et encore
       section:
         - name: Hobby
           content: Foot, musique, cuisine
-        - name: Veteran
-          content: marine                
+        - name: Pompier volontaire
+          content: Par intermitence depuis 2006                
                            

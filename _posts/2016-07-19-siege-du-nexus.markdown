@@ -2,7 +2,8 @@
 layout: post
 title:  "Siège du Nexus : enfin un nouveau mode!"
 date:   2016-07-20 15:00:00 +0200
-categories: gameplay
+categories: Gameplay
+author: Laure V
 ---
 
 Il est arrivé, le nouveau mode de Riot.

@@ -1,6 +1,5 @@
-id:
 name: Alex
-comment: Je reste un grand fan de musique classique sous tous les genres.
+comment: Le film qui amène la musique ou la musique qui amène le film, les deux me vont !!
 
 tracks:
     - track: Nightcall
@@ -10,18 +9,13 @@ tracks:
     - track: Comptine d'un autre été
       artist: Yann Tiersen
       origin: Film "Le fabuleux destin d'Amélie Poulain"
-      typeli:
-      linkem: https://www.youtube.com/embed/H2-1u8xvk54
-      linkd:
+      link: https://www.youtube.com/embed/H2-1u8xvk54
     - track: 9ème Symphonie, Op. 125
       artist: Beethoven
       origin: Film "Orange méchanique"
-      typeli:
-      linkem: https://www.youtube.com/embed/jeO4RF7eXBc
-      linkd:
+      link: https://www.youtube.com/embed/jeO4RF7eXBc
     - track: Man with a harmonica
       artist: Ennio Morricone
       origin: Film "Il était une fois dans l'Ouest"
-      typeli:
-      linkem: https://www.youtube.com/embed/wWtqkz6SH1Y
-      linkd:             
+      link: https://www.youtube.com/embed/wWtqkz6SH1Y
+         

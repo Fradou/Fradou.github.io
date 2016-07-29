@@ -2,7 +2,7 @@
 layout: page
 ---
 
-<div>
+<div class="resumecv">
 {% assign path = site.data.curric.[page.sname] %}
 <h4> {{ path.title }}</h4>
 <a href="mailto:{{path.email}}">{{path.email}}</a></br>
@@ -17,18 +17,20 @@ layout: page
 
 {% if path.comptog == 'on' %}
 <h3> Compètences </h3>
-{% for comp in path.competence %}
+<hr>
+<br>
+ {% for comp in path.competence %}
 <p>
 <strong>{{comp.name}}</strong> : 
-{% for compo in comp.items %}
+  {% for compo in comp.items %}
 <li>{{ compo.name }}</li>
-{% endfor %}
+  {% endfor %}
 </p>
-{% endfor %}
+ {% endfor %}
 {% endif %}
 
 <h3> Expériences professionnelles </h3>
-
+<hr>
 <p>
 {% for expe in path.experience %}
 <h4>{{ expe.position}} - {% if expe.link %}<a href="{{expe.link}}">{{ expe.name }}</a> {% else %}{{ expe.name }}{% endif %}</h4>
@@ -36,8 +38,9 @@ layout: page
 
 {% if expe.jobdesc == "simple" %}
  {% for descr in expe.jobdescr %}
- <li>{{ descr }}</li> 
+ <li>{{ descr }}</li>
  {% endfor %}
+</br>
 
 {% else %}
  {% for descr in expe.jobdescr %}
@@ -49,12 +52,12 @@ layout: page
   </p>
  {% endfor %}
 {% endif %}
-</br>
 {% endfor %}
 </p>
 
 <h3> Formations {% if path.certtog == 'on' %}et certifications{% endif %}</h3>
-
+<hr>
+</br>
 {% if path.certtog == 'on' %}<h4> Formations </h4>{% endif %}
 {% for edu in path.education %}
 <strong>{{edu.degree}}</strong>
@@ -76,6 +79,8 @@ layout: page
 
 {% if path.divtog == 'on' %}
 <h3> {{path.divers.name}}</h3>
+<hr>
+</br>
 {% for div in path.divers.section %}
 <p>
 <strong>{{div.name}}</strong> :</br>
@@ -83,3 +88,5 @@ layout: page
 </p>
 {% endfor %}
 {% endif %}
+
+</div>
